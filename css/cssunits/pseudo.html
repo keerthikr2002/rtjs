@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            color: darkgreen;
+        }
+        p ::second-line{
+            color: aqua;
+        };
+        
+            
+        }
+        p::after{display: block;
+            content: "good morning";
+        }
+        p::before{display:block;
+            content:"hi";
+        }
+        p::after{
+
+            border-image: url(/img/Desert.jpg);
+        }
+    </style>
+</head>
+<body>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis minus dignissimos non recusandae ex et repudiandae nam, distinctio tenetur inventore in quibusdam sint pariatur quis? <span style="color: aquamarine;background-color: brown;">quia neque tempora quod.</p>   
+</body>
+</html>
